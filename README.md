@@ -77,6 +77,7 @@ The **trained models and thresholds** to use for inference purposes are availble
 ![Result GIF 1](https://github.com/Tandon-A/emotic/blob/master/assets/eld11_gif2.gif "Result GIF 1")
 ![Result IMG1](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/deploy/api/proj/debug_exp/results/img_1.jpg)
 ![Project Accuracy](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/deploy/api/proj/debug_exp/results/Accuracy2.PNG)
+![Website Template](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/Template/Picture1.png)
 
 ## Acknowledgements
 
@@ -84,14 +85,17 @@ The **trained models and thresholds** to use for inference purposes are availble
 * [Pytorch-Yolo](https://github.com/eriklindernoren/PyTorch-YOLOv3)
 * [Resnet-50](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
 * [OpenCV](https://opencv.org/)
+* [Tensor Flow](https://www.tensorflow.org/)
+* [Skeat-Learn](https://scikit-learn.org/stable/)
 
 ### Context Based Emotion Recognition using Emotic Dataset 
 _Ronak Kosti, Jose Alvarez, Adria Recasens, Agata Lapedriza_ <br>
 [[Paper]](https://arxiv.org/pdf/2003.13401.pdf) [[Project Webpage]](http://sunai.uoc.edu/emotic/) [[Authors' Implementation]](https://github.com/rkosti/emotic)
 
 ### Emotic MASTER MATERIALS FOR GRADUATION PROJECT
-[[GRADUATION PROJECT]](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/Body%20Language%20and%20emotion%20recognition%20Final.pdf)
-[[PROJECT SURVEY]](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/tree/main/deploy/api/proj/debug_exp/results/Survey)
+[[Graduation Project pdf]](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/Body%20Language%20and%20emotion%20recognition%20Final.pdf)
+[[Project Survey]](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/tree/main/deploy/api/proj/debug_exp/results/Survey)
+[[Website Template]](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/Template/OnlineDetection.html)
 
 ```
 @article{kosti2020context,
