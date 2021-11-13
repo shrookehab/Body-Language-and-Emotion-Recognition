@@ -80,6 +80,7 @@ The **trained models and thresholds** to use for inference purposes are availble
 
 * [Places365-CNN](https://github.com/CSAILVision/places365) 
 * [Pytorch-Yolo](https://github.com/eriklindernoren/PyTorch-YOLOv3)
+* [Resnet-50]
 
 ### Context Based Emotion Recognition using Emotic Dataset 
 _Ronak Kosti, Jose Alvarez, Adria Recasens, Agata Lapedriza_ <br>
@@ -95,6 +96,7 @@ _Ronak Kosti, Jose Alvarez, Adria Recasens, Agata Lapedriza_ <br>
 ```
 
 ## Author 
-[Abhishek Tandon](https://github.com/Tandon-A)
+[Abhishek Tandon](https://github.com/Tandon-A) [ORIGINAL]
+[FCIS Students] [EDITORS]
 
 
