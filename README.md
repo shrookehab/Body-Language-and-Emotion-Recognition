@@ -108,6 +108,6 @@ _Ronak Kosti, Jose Alvarez, Adria Recasens, Agata Lapedriza_ <br>
 
 ## Author 
 * [Abhishek Tandon](https://github.com/Tandon-A) [ORIGINAL]
-* [FCIS Graduated Students] [EDITORS]
+* [FCIS Graduated Students 2021] [EDITORS]
 
 
