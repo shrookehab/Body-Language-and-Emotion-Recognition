@@ -75,16 +75,23 @@ The **trained models and thresholds** to use for inference purposes are availble
 ## Results 
 
 ![Result GIF 1](https://github.com/Tandon-A/emotic/blob/master/assets/eld11_gif2.gif "Result GIF 1")
+![Result IMG1](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/deploy/api/proj/debug_exp/results/img_1.jpg)
+![Project Accuracy](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/deploy/api/proj/debug_exp/results/Accuracy2.PNG)
 
 ## Acknowledgements
 
 * [Places365-CNN](https://github.com/CSAILVision/places365) 
 * [Pytorch-Yolo](https://github.com/eriklindernoren/PyTorch-YOLOv3)
-* [Resnet-50]
+* [Resnet-50](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
+* [OpenCV](https://opencv.org/)
 
 ### Context Based Emotion Recognition using Emotic Dataset 
 _Ronak Kosti, Jose Alvarez, Adria Recasens, Agata Lapedriza_ <br>
 [[Paper]](https://arxiv.org/pdf/2003.13401.pdf) [[Project Webpage]](http://sunai.uoc.edu/emotic/) [[Authors' Implementation]](https://github.com/rkosti/emotic)
+
+### Emotic MASTER MATERIALS FOR GRADUATION PROJECT
+[[GRADUATION PROJECT]](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/Body%20Language%20and%20emotion%20recognition%20Final.pdf)
+[[PROJECT SURVEY]](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/tree/main/deploy/api/proj/debug_exp/results/Survey)
 
 ```
 @article{kosti2020context,
@@ -96,7 +103,7 @@ _Ronak Kosti, Jose Alvarez, Adria Recasens, Agata Lapedriza_ <br>
 ```
 
 ## Author 
-[Abhishek Tandon](https://github.com/Tandon-A) [ORIGINAL]
-[FCIS Students] [EDITORS]
+* [Abhishek Tandon](https://github.com/Tandon-A) [ORIGINAL]
+* [FCIS Graduated Students] [EDITORS]
 
 
