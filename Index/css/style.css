@@ -1,0 +1,110 @@
+
+/* import fonts from fonts.css file */ 
+@import url(/static/fonts.css);
+
+
+/* css variables */ 
+@import url(/static/partials/_variables.css);
+
+/* import global styling */ 
+@import url(/static/partials/_global.css);
+
+
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    height: 70px;
+    /* padding: 1rem 20rem ; */
+    background-color: #242424;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal bold 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: rgb(250, 250, 250);
+   
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    /* background: var(--gradient-color); */
+    background-color: #F6A21D;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    /* background: var(--gradient-color); */
+    background-color: #F6A21D;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end navigation */ 
+.title{
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* Banner Area */ 
+
+.site-main .site-banner {
+    background: url(/static/img/Panner-Home.png) no-repeat 0% 50%;
+    position: relative;
+}
+
+
+.site-main .site-banner .site-title p{
+    font-size: 18px;
+    line-height: 40px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.site-main .site-banner .site-title .info{
+    padding-top: 250px;
+
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/* End Banner Area */ 
+
+/* Start Student-Statistics  Area */ 
+
+.site-main .Student-Statistics {
+    padding: 2rem 5rem;
+}
+.site-main .Student-Statistics .info-lec .ifo-student{
+    padding-top: 20px;
+}
+.site-main .Student-Statistics .info-lec .ifo-student h5{
+ color:#F6A21D ;
+}
+.site-main .Student-Statistics .info-lec .ifo-student .center-btn{
+    text-align: center;
+    margin-left: 180px;
+}
+
+/* start About */
+.site-main .about-area {
+    padding: 8rem 5rem;
+    background-image: url(/static/img/Image-Detection-Background.png) no-repeat 0% 50%;
+}
+
+/* End About Area */ 
+
+
+
