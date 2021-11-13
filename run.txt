@@ -1,0 +1,5 @@
+python main.py --mode yolo_inference --inference_file proj/debug_exp/images.txt --experiment_path proj/debug_exp
+
+python main.py --mode vedio --inference_file E:\mehisen\emotic-master\assets\story.mp4 --experiment_path proj/debug_exp
+
+python main.py --mode inference --inference_file proj/debug_exp/inference_file.txt --experiment_path proj/debug_exp

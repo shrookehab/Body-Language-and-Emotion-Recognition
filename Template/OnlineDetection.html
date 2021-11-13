@@ -1,0 +1,319 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GP website</title>
+
+     <!--  Bootstrap css file  -->
+     <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+     {% comment %} <link rel="stylesheet" href="../Index/css/bootstrap.min.css"> {% endcomment %}
+   
+
+     <!--  font awesome icons  -->
+     <link rel="stylesheet" href="{%static 'css/all.min.css'%}">
+     {% comment %} <link rel="stylesheet" href="../Index/css/all.min.css"> {% endcomment %}
+     
+ 
+ 
+     <!--  Magnific Popup css file  -->
+    <link rel="stylesheet" href="{%static 'vendor/Magnific-Popup/dist/magnific-popup.css'%}">
+     {% comment %} <link rel="stylesheet" href="../Index/vendor/Magnific-Popup/dist/magnific-popup.css"> {% endcomment %}
+     
+ 
+ 
+     <!--  Owl-carousel css file  -->
+      <link rel="stylesheet" href="{%static 'vendor/owl-carousel/css/owl.carousel.min.css'%}">
+     {% comment %} <link rel="stylesheet" href="../Index/vendor/owl-carousel/css/owl.carousel.min.css"> {% endcomment %}
+     {% comment %} <link rel="stylesheet" href="../Index/vendor/owl-carousel/css/owl.theme.default.min.css"> {% endcomment %}
+     <link rel="stylesheet" href="{%static 'vendor/owl-carousel/css/owl.theme.default.min.css'%}">
+ 
+ 
+     <!--  custom css file  -->
+      <link rel="stylesheet" href="{%static 'css/style.css'%}">
+     {% comment %} <link rel="stylesheet" href="../Index/css/style.css"> {% endcomment %}
+ 
+     <!--  Responsive css file  -->
+      <link rel="stylesheet" href="{%static 'css/responsive.css'%}">
+     {% comment %} <link rel="stylesheet" href="../Index/css/responsive.css"> {% endcomment %}
+
+     {% comment %} -script-> {% endcomment %}
+        {% comment %} <script src="{%static 'js/scriptCamera.js'%}"></script> {% endcomment %}
+        {% comment %} Jquery js file   {% endcomment %}
+       <script src="{%static 'js/jquery.3.4.1.js'%}"></script>
+      {% comment %} <script src="../Index/js/jquery.3.4.1.js"></script> {% endcomment %}
+
+      <!--  Bootstrap js file  -->
+       <script src="{%static 'js/bootstrap.min.js'%}"></script>
+      {% comment %} <script src="../Index/js/bootstrap.min.js"></script> {% endcomment %}
+  
+      <!--  isotope js library  -->
+       <script src="{%static 'vendor/isotope/isotope.min.js'%}"></script>
+      {% comment %} <script src="../Index/vendor/isotope/isotope.min.js"></script> {% endcomment %}
+  
+      <!--  Magnific popup script file  -->
+      <script src="{%static 'vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js'%}"></script>
+      {% comment %} <script src="../Index/vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script> {% endcomment %}
+  
+      <!--  Owl-carousel js file  -->
+       <script src="{%static 'vendor/owl-carousel/js/owl.carousel.min.js'%}"></script>
+      {% comment %} <script src="../Index/vendor/owl-carousel/js/owl.carousel.min.js"></script> {% endcomment %}
+  
+      <!--  custom js file  -->
+       <script src="{%static 'js/main.js'%}"></script>
+      {% comment %} <script src="../Index/js/main.js"></script> {% endcomment %}
+      {% comment %} ============================ {% endcomment %}
+   
+ 
+ </head>
+ <body>
+
+
+    <!--  ======================= Start Header Area ============================== -->
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="{%static 'img/logo.png'%}" alt="logo" style="width: 60px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#studentdetection">Student Detection</a>
+                        </li>
+                      
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+  
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--  ======================= End Header Area ============================== -->
+
+     <!--  ======================= Start Main Area ================================ -->
+     <main class="site-main">
+
+
+        <!--  ======================= Start Banner Area =======================  -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <div class="info">
+                            <p class="title-text ">This project is using body language with facial expressions to identify the human action in live natural scenes.</br>
+                                        From the live camera could be captured an image or video (user specifies) at different times.</br>
+                                        This can be used for online lectures by detecting the facial expressions and body movements of every student whether he/she is (angry, excited, happy…., etc.)
+                            </p>
+                         
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="{%static 'img/Project-Name.png'%}" alt="project-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================= End Banner Area =======================  -->
+        <!--  ========================= Student Detection ==========================  -->
+        <div class="title">Studnt Detection</div>
+        <section class="about-area" id="studentdetection">
+            
+            <div class="container-fluid">
+                     <div class="row">
+ 
+                    <div class="col-lg-3 col-md-12 about-title">
+                        <div class="ifo-student">
+                            <button id="recordVedio" type="button" class="btn button  mr-3" style="background-color: #F6A21D;color: #fff;margin-left: 80px; width: 190px;">Record Video</button><br>
+                        
+                        </div>                 
+                    </div>             
+
+                    <div class="col-lg-3 col-md-12 about-title">
+                        <div class="ifo-student">
+                            <button id="capture" type="button" class="btn button  mr-3" style="background-color: #F6A21D;color: #fff;width: 190px;">Capture Image</button><br>
+                        
+                        </div>
+                             
+                    </div>
+                </div> <br/>
+               
+                    <div class="row">
+                    <div class="col-lg-6 col-md-12 about-image">
+                        <div class="about-imagen">
+                            {% comment %} <img src="{%static 'img/Student-Photo1.jpg'%}" alt="About us" class="img-fluid"> {% endcomment %}
+                            <canvas id="image" class="canvas" style=" background: grey; width:500px; height:300px;"></canvas>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-6 col-md-12 about-image">
+                        <div class="about-imagen">
+                            {% comment %} <img src="{%url 'OnlineDetection'%}" alt="About us" class="img-fluid"> {% endcomment %}
+                            {% comment %} <img src="{%url 'dynamic_stream' stream_path='video'%}" alt="About us" class="img-fluid"> {% endcomment %}
+                            <video id="videoElement" autoplay="true" style=" background: grey;  width:500px; height:300px;"></video>
+                            
+
+
+                        </div>
+                     </div>
+                    </div>
+            </div>
+        </section>
+
+        <!--  ========================= End Student Detection  ==========================  -->
+       
+  {% comment %} <!-------------------------------------------------About----------------> {% endcomment %}
+    <div class="title">About us</div>
+        <section class="about-area">
+            
+            <div class="container-fluid">
+                <div class="row">
+                 
+                    
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <div class="about-image">
+                            <img src="{%static 'img/Team-Members.png'%}" alt="About us" class="img-fluid">
+                        </div>
+                             
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-image">
+                        <div class="about-image">
+                            <img src="{%static 'img/Supervisor.png'%}" alt="About us" class="img-fluid">
+                        </div>
+                     </div>
+            </div>
+            </div>
+        </section>
+    {% comment %} end about {% endcomment %}
+    {% comment %} <!--------------------footer-----------------> {% endcomment %}
+            <div class="footer">
+                <img src="{%static 'img/Footer.png'%}" alt="footer"  style="width: 100%;">
+              
+            </div>
+    {% comment %} <!-------------endfooter---------------------> {% endcomment %}
+   <script>
+        var video = document.querySelector("#videoElement");
+        var myCanavas = document.querySelector("#image");
+        //var recordButton = document.querySelector("#recordVedio");
+        //mediaDevice and userMedia to navigate the access for camera
+
+        if(navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({
+                audio: true,
+                video: true
+                // after allowing the camera start the video stream
+            }).then(function(stream) {
+                video.srcObject = stream;
+                //play the video
+                video.play();
+            }).catch(function(error) {
+                console.log(error);
+            });
+        }
+
+        // capture Images
+
+        var image = document.getElementById('image'),
+            context = image.getContext('2d');  //setting for resolution of image
+
+
+        document.getElementById('capture').addEventListener('click' , function() {
+                // draw a image when the button clicked on the canvas
+            
+            context.drawImage(video , 0 , 0 , image.width , image.height);
+            if (window.navigator.msSaveBlob)
+                window.navigator.msSaveBlob(myCanavas.msToBlob(),"Student-Photo1.jpg");
+            else{
+                const a = document.createElement("a");
+                document.body.appendChild(a);
+                a.href = myCanavas.toDataURL();
+                a.download = "Student-Photo1.jpg";
+                a.click();
+                document.body.removeChild(a);
+            }
+        }); 
+
+        {% comment %} ===========================vedio ========================{% endcomment %}
+ 
+        {% comment %} let mediaRecorder;
+        let recordedBlobs;
+
+        document.getElementById('recordVedio').addEventListener('click', function() {
+           
+            recordedBlobs = [];
+            let options = {mimeType: 'video/webm;codecs=vp9,opus'};            
+            mediaRecorder = new MediaRecorder(window.stream, options);
+            console.log('Created MediaRecorder', mediaRecorder, 'with options', options);
+            
+            mediaRecorder.ondataavailable = handleDataAvailable;
+            mediaRecorder.start();
+            console.log('MediaRecorder started', mediaRecorder);
+                
+        }
+
+        document.getElementById('stopVedio').addEventListener('click', function() {
+        
+            mediaRecorder.stop();
+
+            const blob = new Blob(recordedBlobs, {type: 'video/mp4'});
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            document.body.appendChild(a);
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'test.mp4';
+            a.click();
+            setTimeout(() => {
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+            }, 100);
+
+                       
+        });
+
+        function handleDataAvailable(event) {
+            console.log('handleDataAvailable', event);
+            if (event.data && event.data.size > 0) {
+                recordedBlobs.push(event.data);
+            }
+        }
+
+            
+                
+
+        function handleSuccess(stream) {
+            recordButton.disabled = false;
+            console.log('getUserMedia() got stream:', stream);
+            window.stream = stream;
+
+            const gumVideo = document.querySelector('video#gum');
+            gumVideo.srcObject = stream;
+        }
+
+        async function init(constraints) {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia(constraints);
+            handleSuccess(stream);
+        } catch (e) {
+            console.error('navigator.getUserMedia error:', e);
+            errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
+        }
+        } {% endcomment %}
+
+    </script>
+            
+ </body> 
+ </html>
