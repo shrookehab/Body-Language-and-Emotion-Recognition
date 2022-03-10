@@ -86,7 +86,7 @@ The **trained models and thresholds** to use for inference purposes are availble
 * [Resnet-50](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
 * [OpenCV](https://opencv.org/)
 * [Tensor Flow](https://www.tensorflow.org/)
-* [Skeat-Learn](https://scikit-learn.org/stable/)
+* [Scikit-Learn](https://scikit-learn.org/stable/)
 
 ### Context Based Emotion Recognition using Emotic Dataset 
 _Ronak Kosti, Jose Alvarez, Adria Recasens, Agata Lapedriza_ <br>
