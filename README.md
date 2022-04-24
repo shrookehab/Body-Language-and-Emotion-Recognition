@@ -92,7 +92,7 @@ The **trained models and thresholds** to use for inference purposes are availble
 _Ronak Kosti, Jose Alvarez, Adria Recasens, Agata Lapedriza_ <br>
 [[Paper]](https://arxiv.org/pdf/2003.13401.pdf) [[Project Webpage]](http://sunai.uoc.edu/emotic/) [[Authors' Implementation]](https://github.com/rkosti/emotic)
 
-### Emotic MASTER MATERIALS FOR GRADUATION PROJECT
+### Emotic Master Materials For Graduation Project
 [[Graduation Project pdf]](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/Body%20Language%20and%20emotion%20recognition%20Final.pdf)
 [[Project Survey]](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/tree/main/deploy/api/proj/debug_exp/results/Survey)
 [[Website Template]](https://github.com/shrookehab/Body-Language-and-Emotion-Recognition/blob/main/Template/OnlineDetection.html)
